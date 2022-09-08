@@ -23,6 +23,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'import'],
+  ignorePatterns: ["**/dist/*"],
   rules: {
     'no-restricted-globals': [
       2,
